@@ -11,6 +11,12 @@ The project covers the full lifecycle of a database solution: schema design, dat
 - **Data:** 10 clients, 11 portfolios, 11 investments, 10 returns (Botswana context, values in BWP)
 - **Queries:** 15 total — 5 basic, 5 intermediate, 5 advanced
 
+## Documentation
+
+A full project write-up — covering objectives, database design, data population, and a walkthrough of all 15 queries — is available here:
+
+📄 [Project Documentation (PDF)](docs/Investment_Portfolio_Management_System.pdf)
+
 ## Entity-Relationship Diagram
 
 ![ER Diagram](docs/er-diagram.png)
@@ -58,7 +64,7 @@ Full schema and sample data: [`investment_portfolio_schema.sql`](investment_port
 
 ## Data
 
-Sample data is loaded as part of [`investment_portfolio_schema.sql`](investment_portfolio_schema.sql), directly after the table definitions.
+Sample data reflecting a Botswana-based client base is loaded as part of [`investment_portfolio_schema.sql`](investment_portfolio_schema.sql), directly after the table definitions.
 
 ## Queries
 
@@ -71,7 +77,7 @@ All 15 queries live in [`investment_portfolio_queries.sql`](investment_portfolio
 - Retrieve investments of a specific type
 - Retrieve average return percentage per investment type
 
-**Intermediate** -full-chain joins, ranking, comparisons
+**Intermediate** - full-chain joins, ranking, comparisons
 - Retrieve total return amount per investment type, with portfolio and client info
 - Retrieve the top 5 portfolios by total investment amount
 - Retrieve investments made in the past year
