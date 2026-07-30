@@ -1,4 +1,4 @@
-# investment-portfolio-management-sql
+# Investment Portfolio Management System
 
 A relational database project built in PostgreSQL, modelling how a financial services firm tracks clients, their investment portfolios, individual investments, and the returns those investments generate over time.
 
@@ -54,15 +54,15 @@ CREATE TABLE returns (
 );
 ```
 
-Full schema: [`01_schema.sql`](01_schema.sql)
+Full schema and sample data: [`investment_portfolio_schema.sql`](investment_portfolio_schema.sql)
 
 ## Data
 
-Sample data reflecting a Botswana-based client base is loaded in [`02_seed_data.sql`](02_seed_data.sql).
+Sample data reflecting a Botswana-based client base is loaded as part of [`investment_portfolio_schema.sql`](investment_portfolio_schema.sql), directly after the table definitions.
 
 ## Queries
 
-All 15 queries live in [`03_queries.sql`](03_queries.sql), grouped by difficulty.
+All 15 queries live in [`investment_portfolio_queries.sql`](investment_portfolio_queries.sql), grouped by difficulty.
 
 **Basic** — single/two-table lookups and aggregation
 - Retrieve all client names and contact information
@@ -91,9 +91,8 @@ All 15 queries live in [`03_queries.sql`](03_queries.sql), grouped by difficulty
 2. Connect to it using [DBeaver](https://dbeaver.io) (or any PostgreSQL client).
 3. Run the scripts in order:
    ```
-   01_schema.sql      -- creates the four tables
-   02_seed_data.sql   -- loads sample data
-   03_queries.sql     -- run individually to explore the data
+   investment_portfolio_schema.sql   -- creates the four tables and loads sample data
+   investment_portfolio_queries.sql  -- run individually to explore the data
    ```
 
 ## Skills Demonstrated
@@ -105,7 +104,7 @@ All 15 queries live in [`03_queries.sql`](03_queries.sql), grouped by difficulty
 - Correlated and non-correlated subqueries
 - Working with a live, cloud-hosted relational database
 
-
+## Author
 
 **Katlego Kgakgamatso**
 [LinkedIn](https://linkedin.com/in/katlego-kgakgamatso-440894260) · [GitHub](https://github.com/Katlego-k365) · [Portfolio](https://katlego-k365.github.io)
