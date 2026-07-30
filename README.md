@@ -2,7 +2,7 @@
 
 A relational database project built in PostgreSQL, modelling how a financial services firm tracks clients, their investment portfolios, individual investments, and the returns those investments generate over time.
 
-The project covers the full lifecycle of a database solution: schema design, data population, and a structured set of SQL queries — from simple retrieval through to multi-table joins, aggregation, and correlated subqueries.
+The project covers the full lifecycle of a database solution: schema design, data population, and a structured set of SQL queries - from simple retrieval through to multi-table joins, aggregation, and correlated subqueries.
 
 ## Overview
 
