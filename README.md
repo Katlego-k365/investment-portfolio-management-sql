@@ -58,7 +58,7 @@ Full schema and sample data: [`investment_portfolio_schema.sql`](investment_port
 
 ## Data
 
-Sample data reflecting a Botswana-based client base is loaded as part of [`investment_portfolio_schema.sql`](investment_portfolio_schema.sql), directly after the table definitions.
+Sample data is loaded as part of [`investment_portfolio_schema.sql`](investment_portfolio_schema.sql), directly after the table definitions.
 
 ## Queries
 
