@@ -64,21 +64,21 @@ Sample data reflecting a Botswana-based client base is loaded as part of [`inves
 
 All 15 queries live in [`investment_portfolio_queries.sql`](investment_portfolio_queries.sql), grouped by difficulty.
 
-**Basic** — single/two-table lookups and aggregation
+**Basic** - single/two-table lookups and aggregation
 - Retrieve all client names and contact information
 - Retrieve all portfolio names with their client names
 - Retrieve total investment amount per portfolio
 - Retrieve investments of a specific type
 - Retrieve average return percentage per investment type
 
-**Intermediate** — full-chain joins, ranking, comparisons
+**Intermediate** -full-chain joins, ranking, comparisons
 - Retrieve total return amount per investment type, with portfolio and client info
 - Retrieve the top 5 portfolios by total investment amount
 - Retrieve investments made in the past year
 - Retrieve clients holding investments in multiple portfolios
 - Retrieve portfolios with total returns above the overall average
 
-**Advanced** — correlated subqueries and anti-joins
+**Advanced** - correlated subqueries and anti-joins
 - Retrieve the top 3 clients by total investment amount
 - Retrieve portfolios with the highest average return percentage
 - Retrieve investments that have not yet received any returns (LEFT JOIN anti-join)
