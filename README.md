@@ -9,11 +9,11 @@ The project covers the full lifecycle of a database solution: schema design, dat
 - **Database:** PostgreSQL, hosted on [Supabase](https://supabase.com)
 - **Client:** [DBeaver Community Edition](https://dbeaver.io)
 - **Data:** 10 clients, 11 portfolios, 11 investments, 10 returns (Botswana context, values in BWP)
-- **Queries:** 15 total — 5 basic, 5 intermediate, 5 advanced
+- **Queries:** 15 total - 5 basic, 5 intermediate, 5 advanced
 
 ## Documentation
 
-A full project write-up — covering objectives, database design, data population, and a walkthrough of all 15 queries — is available here:
+A full project write-up - covering objectives, database design, data population, and a walkthrough of all 15 queries - is available here:
 
 📄 [Project Documentation (PDF)](docs/Investment_Portfolio_Management_System.pdf)
 
